@@ -1,1 +1,4 @@
 usei o terminal Ctrl+Alt+T pra criar esse arquivo
+^G Ajuda ^O Gravar ^W Ondeestá ^K Recortar ^X Sair
+O ^significa 
+
