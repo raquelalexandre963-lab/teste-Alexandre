@@ -1,2 +1,3 @@
 # teste-Alexandre
-meu primeiro repositório de teste no GITHUB
+## Sobre mim
+olá! Sou o Alexandre e esse é meu primeiro repositório no GITHUB.
