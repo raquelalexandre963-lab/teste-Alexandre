@@ -62,11 +62,32 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-5xl mx-auto mt-16 px-6 pb-20">
+      <section className="max-w-5xl mx-auto mt-16 px-6">
         <h3 className="text-3xl font-bold mb-8">Certificações</h3>
         <div className="border border-zinc-200 rounded-xl p-6">
           <h4 className="font-semibold">Base de .NET e Desenvolvimento de APIs</h4>
           <p className="text-sm text-zinc-600">DIO + Microsoft | Junho 2026</p>
+        </div>
+      </section>
+
+      <section className="max-w-5xl mx-auto mt-16 px-6 pb-20">
+        <h3 className="text-3xl font-bold mb-8">Contato</h3>
+        <div className="rounded-[2rem] border border-green-500/40 bg-gradient-to-r from-emerald-50 via-white to-lime-100 p-8 shadow-[0_24px_80px_rgba(16,185,129,0.16)]">
+          <p className="text-zinc-900 text-xl font-semibold">Vamos conversar sobre projetos ou trabalho?</p>
+          <p className="mt-3 text-zinc-600">Estou disponível pelo WhatsApp ou email para responder rápido e agendar um papo.</p>
+          <a href="https://wa.me/5521994479877" target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center justify-center gap-3 w-full max-w-md rounded-full bg-green-600 px-7 py-4 text-lg font-bold text-white shadow-xl shadow-green-500/30 transition duration-200 hover:bg-green-700 hover:shadow-green-600/30">
+            <span className="text-2xl">💬</span>
+            WhatsApp: +55 (21) 99447-9877
+          </a>
+          <a href="mailto:raquelalexandre963@gmail.com" className="mt-4 inline-flex items-center justify-center gap-3 w-full max-w-md rounded-full border border-green-600 bg-white px-7 py-4 text-lg font-bold text-green-700 shadow-sm transition duration-200 hover:bg-green-50">
+            <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-green-100 text-green-700">
+              <svg viewBox="0 0 24 24" fill="currentColor" className="h-6 w-6">
+                <path d="M20 4H4C2.895 4 2 4.895 2 6v12c0 1.105.895 2 2 2h16c1.105 0 2-.895 2-2V6c0-1.105-.895-2-2-2zm0 2l-8 5-8-5h16zm-16 12V8.236l7.382 4.614c.191.12.425.12.616 0L20 8.236V18H4z" />
+              </svg>
+            </span>
+            Email: raquelalexandre963@gmail.com
+          </a>
+          <p className="mt-4 text-sm text-zinc-500">Envie sua mensagem para meu email.</p>
         </div>
       </section>
     </main>
