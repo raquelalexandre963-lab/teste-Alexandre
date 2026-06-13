@@ -1,26 +1,23 @@
-import { Dancing_Script, Playfair_Display } from 'next/font/google'
-
-const dancing = Dancing_Script({ subsets: ['latin'] })
-const playfair = Playfair_Display({ subsets: ['latin'] })
-
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-azul-50 to-white dark:from-zinc-900 dark:to-zinc-950">
-      <header className="flex justify-between p-6 max-w-5xl mx-auto">
-        <h1 className="text-2xl font-bold dark:text-white">Alexandre.</h1>
-        <button className="text-2xl">☰</button>
+    <main className="min-h-screen bg-white">
+      <header className="flex justify-between items-center p-6 max-w-5xl mx-auto">
+        <h1 className="text-2xl font-bold text-black">Alexandre.</h1>
+        <a href="https://github.com/raquelalexandre963-lab" target="_blank" rel="noopener noreferrer" className="px-4 py-2 bg-black text-white font-bold rounded hover:bg-gray-800">
+          GitHub
+        </a>
       </header>
 
       <section className="flex flex-col items-center text-center mt-10 px-6">
         <div className="w-64 h-64 bg-blue-600 rounded-full" />
         
-        <span className="mt-8 px-4 py-2 bg-blue-100 text-blue-800 dark:bg-blue-900/50 dark:text-blue-200 rounded-full">
+        <span className="mt-8 px-4 py-2 bg-blue-100 text-blue-800 rounded-full font-semibold">
           Desenvolvedor | C & .NET & APIs
         </span>
 
-        <h2 className="mt-6 text-5xl dark:text-white">
-          <span className={dancing.className}>Olá, eu sou o</span><br/>
-          <span className={`${playfair.className} text-blue-700`}>Alexandre Cunha</span>
+        <h2 className="mt-6 text-5xl font-bold text-black">
+          Olá, eu sou o<br/>
+          Alexandre Cunha
         </h2>
       </section>
 
