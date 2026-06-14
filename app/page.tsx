@@ -75,7 +75,7 @@ export default function Home() {
 
             <div className="flex-1">
               <h4 className="font-semibold">Fundamentos da IA Moderna: Machine Learning, LLMs, IA Generativa e Agentes</h4>
-              <p className="text-sm text-zinc-600">DIO | 13 de junho de 2026</p>
+              <p className="text-sm text-zinc-600">DIO | 13 de junho de 2026 • Certificado atualizado</p>
               <div className="mt-3 flex items-center gap-3">
                 <a href="/PZDSHGIR.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
                   Ver certificado (PDF)
@@ -86,6 +86,20 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="border border-zinc-200 rounded-xl p-6">
+            <h4 className="font-semibold">Certificado em Lógica de Programação e Estruturas em C</h4>
+            <p className="text-sm text-zinc-600">Estácio | Junho 2026</p>
+            <p className="mt-4 text-zinc-700">Prática com funções, laços e estruturas de dados em C para desenvolver projetos reais, incluindo o jogo Super Trunfo.</p>
+            <div className="mt-4 inline-flex items-center gap-2 text-sm text-zinc-600">
+              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-700">
+                <svg viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4">
+                  <path d="M12 2a10 10 0 1010 10A10.011 10.011 0 0012 2zm-1 15l-5-5 1.41-1.41L11 14.17l6.59-6.59L19 9z" />
+                </svg>
+              </span>
+              PDF disponível mediante solicitação.
+            </div>
+          </div>
         </div>
       </section>
 
@@ -93,7 +107,7 @@ export default function Home() {
         <h3 className="text-3xl font-bold mb-8">Contato</h3>
         <div className="rounded-[2rem] border border-green-500/40 bg-gradient-to-r from-emerald-50 via-white to-lime-100 p-8 shadow-[0_24px_80px_rgba(16,185,129,0.16)]">
           <p className="text-zinc-900 text-xl font-semibold">Vamos conversar sobre projetos ou trabalho?</p>
-          <p className="mt-3 text-zinc-600">Estou disponível pelo WhatsApp ou email para responder rápido e agendar um papo.</p>
+          <p className="mt-3 text-zinc-600">Meu WhatsApp está atualizado e meu e-mail também. Use qualquer um dos dois para entrar em contato rápido.</p>
           <a href="https://wa.me/5521994479877" target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center justify-center gap-3 w-full max-w-md rounded-full bg-gradient-to-r from-emerald-600 to-lime-500 px-7 py-4 text-lg font-bold text-white shadow-xl shadow-emerald-400/30 transition duration-200 hover:from-emerald-700 hover:to-lime-600 hover:shadow-emerald-500/40">
             <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-emerald-700 flex-shrink-0">
               <svg viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8 fill-current">
