@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="320" viewBox="0 0 240 320" fill="none">
+  <rect width="240" height="320" rx="12" fill="#F8FAFC" stroke="#E5E7EB"/>
+  <rect x="16" y="16" width="208" height="96" rx="6" fill="#E11D48" />
+  <text x="120" y="70" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">PDF</text>
+  <g transform="translate(24,130)" fill="#111827">
+    <rect width="192" height="12" rx="6" fill="#E5E7EB" />
+    <rect y="24" width="160" height="12" rx="6" fill="#E5E7EB" />
+    <rect y="48" width="120" height="12" rx="6" fill="#E5E7EB" />
+  </g>
+  <rect x="24" y="200" width="192" height="80" rx="8" fill="#fff" stroke="#E5E7EB"/>
+</svg>
