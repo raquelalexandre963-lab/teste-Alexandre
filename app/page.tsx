@@ -110,20 +110,20 @@ export default function Home() {
           <p className="text-zinc-900 text-xl font-semibold">Vamos conversar sobre projetos ou trabalho?</p>
           <p className="mt-3 text-zinc-600">WhatsApp e e-mail atualizados abaixo. Pode me chamar pelo Zap ou enviar mensagem pelo e-mail.</p>
           <a href="https://wa.me/5521994479877" target="_blank" rel="noopener noreferrer" className="mt-8 inline-flex items-center justify-center gap-3 w-full max-w-md rounded-full bg-gradient-to-r from-emerald-600 to-lime-500 px-7 py-4 text-lg font-bold text-white shadow-xl shadow-emerald-400/30 transition duration-200 hover:from-emerald-700 hover:to-lime-600 hover:shadow-emerald-500/40">
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-emerald-700 flex-shrink-0">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8 fill-current">
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-white text-emerald-700 flex-shrink-0" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" className="h-8 w-8 fill-current">
                 <path d="M16.78 7.22a7.91 7.91 0 00-11.21 0 7.93 7.93 0 000 11.21l-.5 2.2 2.26-.59a7.95 7.95 0 004.7 1.45h.01c4.41 0 8-3.59 8-8a7.95 7.95 0 00-2.75-5.17zm-1.9 10.04c-.34.97-1.3 1.65-2.4 1.8a5.61 5.61 0 01-4.94-1.65l-.35-.35-1.31.34.35-1.33-.35-.35a5.58 5.58 0 011.68-8.8 5.61 5.61 0 018.36 1.68 5.6 5.6 0 01-.01 5.34zm-1.31-3.86c-.17-.3-.6-.49-1.25-.85-.65-.35-1.22-.78-1.72-1.18-.5-.41-.83-.46-1.2-.26-.37.2-1.42.82-1.74 1.02-.32.2-.55.3-.79.3-.24 0-.53-.03-.82-.07-.28-.05-.68-.25-1.04-.73-.36-.48-1.25-1.21-1.25-2.95 0-1.74 1.22-2.86 1.39-3.06.17-.2.38-.21.52-.21.14 0 .3 0 .46 0 .15 0 .36-.06.56.41.2.48.67 1.65.73 1.77.06.12.1.26.02.42-.08.16-.13.27-.26.42-.13.14-.27.31-.39.47-.19.28-.4.57-.18.96.22.39.95 1.56 2.05 2.5 1.42 1.21 2.17 1.35 2.56 1.19.39-.16 1.24-.5 1.42-.99.18-.49.18-.9.13-.99-.05-.09-.21-.15-.45-.26z" />
               </svg>
             </span>
-            Zap: +55 (21) 99447-9877
+            📲 Zap: +55 (21) 99447-9877
           </a>
-          <a href="mailto:raquelalexandre963@gmail.com" className="mt-4 inline-flex items-center justify-center gap-3 w-full max-w-md rounded-full border border-green-600 bg-white px-7 py-4 text-lg font-bold text-green-700 shadow-sm transition duration-200 hover:bg-green-50">
-            <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700 flex-shrink-0">
-              <svg viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8 fill-current">
+          <a href="mailto:raquelalexandre963@gmail.com" target="_blank" rel="noopener noreferrer" className="mt-4 inline-flex items-center justify-center gap-3 w-full max-w-md rounded-full border border-green-600 bg-white px-7 py-4 text-lg font-bold text-green-700 shadow-sm transition duration-200 hover:bg-green-50">
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700 flex-shrink-0" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" role="img" className="h-8 w-8 fill-current">
                 <path d="M20 4H4C2.895 4 2 4.895 2 6v12c0 1.105.895 2 2 2h16c1.105 0 2-.895 2-2V6c0-1.105-.895-2-2-2zm0 2l-8 5-8-5h16zm-16 12V8.236l7.382 4.614c.191.12.425.12.616 0L20 8.236V18H4z" />
               </svg>
             </span>
-            Email: raquelalexandre963@gmail.com
+            ✉️ Email: raquelalexandre963@gmail.com
           </a>
           <p className="mt-4 text-sm text-zinc-500">Envie sua mensagem para mim.</p>
       </div>
